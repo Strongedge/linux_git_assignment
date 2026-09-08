@@ -102,29 +102,5 @@ head -n 5 Gold/2023_year_finance.csv
 
 echo  "=== Data Pipeline Executed Successfully === "
 
-cd ..
-git status
-git checkout main
-git branch
-git status
-git checkout -b goke3
-git status
-git add .
-git status
-git commit -m "fourth commit, data has been loaded into a folder Gold"
-git log
-git push
-git push --set-upstream origin goke3
-git checkout main
-git pull
-history 20| cut -c 8->> bash_script.sh
-nano bash_script.sh
-fc -ln -50 >> bash_script.sh
-nano bash_script.sh
-cat bash_script.sh
-fc -ln -50 > bash_script.sh
-nano bash_script.sh
-echo '#!/bin/bash'> bash_script.sh && fc -ln -50 -1 >> bash_script.sh
-nano bash_script.sh
-echo '#!/bin/bash'> bash_script.sh && fc -ln -70 -1 >> bash_script.sh && nano bash_script.sh
-echo '#!/bin/bash'> bash_script.sh && fc -ln -90 -1 >> bash_script.sh && nano bash_script.sh
+
+exit 0
